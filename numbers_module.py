@@ -4,9 +4,5 @@ def main():
     num_2 = int(input("Please enter a number: "))
 
     if num_1 > num_2:
-        print("num 1 is bigger than num 2")
-    elif num_2 > num_1:
-        print("num 1 is bigger than num 2")
-    elif num_1 == num_2:
-        print("num 1 and num 2 are equal")
+        print("Number 1 is bigger than Number 2.")
 main()
