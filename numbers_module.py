@@ -5,4 +5,8 @@ def main():
 
     if num_1 > num_2:
         print("num 1 is bigger than num 2")
+    elif num_2 > num_1:
+        print("num 1 is bigger than num 2")
+    elif num_1 == num_2:
+        print("num 1 and num 2 are equal")
 main()
